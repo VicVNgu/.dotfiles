@@ -1,0 +1,23 @@
+ername_hw01.txt
+mkdir .dotfiles
+ls -a
+cd .dotfiles/
+touch README.md
+vim README.md
+inserted
+# My Dotfiles
+These are my dotfile configuration files for different software in Bash.
+## .vimrc
+This is my custom .vimrc configuration for Vim.
+## .bashrc
+This is my custom .bashrc configuration for Bash.
+:w
+:x
+cat README.md
+cp .vimrc .dotfiles/
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:VicVNgu/.dotfiles
+
